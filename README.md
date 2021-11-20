@@ -7,6 +7,14 @@ To start the appliction, run the following commands
 npm install \
 npm start
 
+## Project URLS
+Git Repo for React App - https://github.com/AdityaSatnalika0202/zendesk \
+UI Deployed Link - https://zendesk.pages.dev/ \
+Backend Deployment Link Health Check- https://eflask-app-zendesk.herokuapp.com/\
+Backend Deployment Get Ticket Data- https://eflask-app-zendesk.herokuapp.com/getData\
+
+
+
 ## Project Description
 
 The Project has 2 components front-end (made in React) and back-end (made in python flask) \
