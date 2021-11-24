@@ -48,7 +48,7 @@ function App() {
                         <AgGridReact
                             pagination={true}
                             onRowDoubleClicked={rowDoubleClick}
-                            paginationAutoPageSize={25}
+                            paginationPageSize={25}
                             rowData={data}>
                             <AgGridColumn field="id" width  = {100} sortable={ true } filter={ true }></AgGridColumn>
                             <AgGridColumn field="priority" valueGetter={valueGetter} width  = {100} sortable={ true } filter={ true }></AgGridColumn>
