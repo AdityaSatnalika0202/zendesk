@@ -26,7 +26,7 @@ The react app is deployed on Cloudfare and the Flask app is Deployed on Heroku
    We had to do this because CORS is blocked from JS, so we need to create a back end which could supply us the data
 
 
-Q. Why did I chose python as my backend not java or golang or any other framework ?
+Q. Why did I chose python as my backend not java or golang or any other framework ? \
 Ans. Two possible explainations , python is flexible and if we want to add more feature we can add (and also I am more comfortable in 
 python than in java :P)
 \
@@ -37,7 +37,7 @@ it means, I commit changes and it gets deployed in cloud
 \
 but in java we have to create the war / jar package and deploy and the error which occurs in deployment arealso a bit difficult to figure
 out as some bean is missing or env variable is not set etc.
-
+\
 So the logical answer was python :) and its easy to deploy on heroku 
 
 
