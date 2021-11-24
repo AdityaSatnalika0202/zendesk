@@ -2,7 +2,6 @@ import {useForm} from "react-hook-form";
 import './App.css';
 import {useEffect, useState} from "react";
 import Headers from "./Header";
-import Posts from "./Posts";
 import TicketData from "./TicketData";
 import {AgGridColumn, AgGridReact} from 'ag-grid-react';
 
@@ -47,7 +46,9 @@ function App() {
 
                     <div className="ag-theme-alpine-dark" style={{ height: "80vh"}}>
                         <AgGridReact
+                            pagination={true}
                             onRowDoubleClicked={rowDoubleClick}
+                            paginationAutoPageSize={25}
                             rowData={data}>
                             <AgGridColumn field="id" width  = {100} sortable={ true } filter={ true }></AgGridColumn>
                             <AgGridColumn field="priority" valueGetter={valueGetter} width  = {100} sortable={ true } filter={ true }></AgGridColumn>
