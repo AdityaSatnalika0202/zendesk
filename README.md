@@ -10,8 +10,8 @@ npm start
 ## Project URLS
 Git Repo for React App - https://github.com/AdityaSatnalika0202/zendesk \
 UI Deployed Link - https://zendesk.pages.dev/ \
-Backend Deployment Link Health Check- https://eflask-app-zendesk.herokuapp.com/
-Backend Deployment Get Ticket Data- https://eflask-app-zendesk.herokuapp.com/getData\
+Backend Deployment Link Health Check- https://eflask-app-zendesk.herokuapp.com/ \
+Backend Deployment Get Ticket Data- https://eflask-app-zendesk.herokuapp.com/getData \
 
 
 
